@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_hcp_engagements
+    columns:
+      - name: engagement_id
+        tests:
+          - not_null
+          - unique
+
+      - name: engagement_score
+        tests:
+          - not_null
