@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_hcp_engagements
+  - name: stg_ft_hcp_engagements
     columns:
       - name: engagement_id
         tests:
